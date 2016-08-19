@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>  </title>
+    <link rel="stylesheet" type="text/css" href="styles/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="styles/theme.css" />
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+  </head>
+  <body>
+    <h1>Banner Generator</h1>
+    <span class="note"> Fill up the informations and download your banner: </span> <br/><br/>
+    <div class="form">
+      <input type="text" id="banner_heading" placeholder="Banner Headline"/>
+      <input type="button" id="preview" value="Preview"/>
+      <button type="button" id="download">Download</button>
+    </div>
+    
+    <canvas id="banner" height="350px" width="900px">
+      
+    </canvas>
+    <div class="test"></div>
+    <script src="magic/generator.js"> </script>
+  </body>
+</html>

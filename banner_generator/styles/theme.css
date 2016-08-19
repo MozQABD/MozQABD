@@ -1,0 +1,52 @@
+/*
+  Importing fonts
+*/
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 98%;
+  font-family: Open Sans;
+ 
+  margin: 2% auto;
+}
+
+h1 {
+  
+}
+
+.note {
+  font-size: 90%;
+}
+
+#banner {
+  background: url("../images/banner_preset.svg");
+  background-size: cover;
+  margin: 10px auto;
+  box-shadow: 0 0 1px inset;
+  float: left;
+}
+
+.form {
+  
+}
+
+input, button {
+  font-weight: bold;
+  line-height: 100%;
+  height: 30px;
+  border: 0;
+  box-shadow: 0 0 1px inset;
+  padding: 5px;
+}
+
+.test {
+  height: 500px;
+  width: 500px;
+  background: url('../images/firefox.png');
+}
