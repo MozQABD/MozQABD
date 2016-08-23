@@ -12,28 +12,25 @@
 body {
   width: 98%;
   font-family: Open Sans;
- 
   margin: 2% auto;
-}
-
-h1 {
-  
 }
 
 .note {
   font-size: 90%;
 }
 
-#banner {
-  background: url("../images/banner_preset.svg");
-  background-size: cover;
+canvas {
+  position: absolute;
   margin: 10px auto;
   box-shadow: 0 0 1px inset;
-  float: left;
 }
 
-.form {
-  
+#banner_background {
+  z-index: 0;
+}
+
+#banner {
+  z-index: 1;
 }
 
 input, button {
@@ -43,10 +40,4 @@ input, button {
   border: 0;
   box-shadow: 0 0 1px inset;
   padding: 5px;
-}
-
-.test {
-  height: 500px;
-  width: 500px;
-  background: url('../images/firefox.png');
 }
