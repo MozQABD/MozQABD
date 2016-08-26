@@ -31,7 +31,7 @@ preview.addEventListener("click", previewBanner);
 
 //function that downloads the previously generated banner;
 function downloadImage(link, canvasID, fileName) {
-  link.href = canvasID.toDataURL('image/png');
+  link.href = canvasID.toDataURL('image/png'+'==');
   link.download = fileName;
 }
 
