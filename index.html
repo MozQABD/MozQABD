@@ -11,11 +11,18 @@
     <span class="note"> Fill up the informations and download your banner: </span> <br/><br/>
     <div class="form">
       <input type="text" id="banner_heading" placeholder="Banner Headline" />
-      <input type="button" id="preview" value="Apply Text"/>
+      <select id="channel_name">
+          <option selected="true" disabled="disabled">Select Channel</option>
+          <option value=1>Release</option>
+          <option value=2>Beta</option>
+          <option value=3>Nightly</option>
+      </select>
+      <input type="button" id="preview" value="Apply"/>
       <a id="download"><button type="button">Download</button></a>
     </div>
     <canvas id="banner_background" height="350px" width="900px"> </canvas>
     <canvas id="banner" height="350px" width="900px"> </canvas>
+    <canvas id="fxlogo" height="350px" width="900px"> </canvas>
     <script src="magic/generator.js"> </script>
   </body>
 </html>
