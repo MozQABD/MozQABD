@@ -62,7 +62,7 @@ function previewBanner() {
 
   background_ctx.drawImage(backgroundImage, 0, 0, background.width, background.height);
   fxLogoLayer_ctx.drawImage(fxLogoImage,105,110, fxLogoLayer.height/2.2, fxLogoLayer.height/2.2);
-  mozqabdLogoLayer_ctx.drawImage(mozqabdLogoImage, 700,0, fxLogoImage.height/3.74, fxLogoImage.height/6.6);
+  mozqabdLogoLayer_ctx.drawImage(mozqabdLogoImage, 763,285, fxLogoImage.height/4.3197, fxLogoImage.height/7.623);
   textLayer_ctx.textAlign = "center";
   textLayer_ctx.fillText(document.getElementById("banner_heading").value, textLayer.width/2, textLayer.height/4);
 
